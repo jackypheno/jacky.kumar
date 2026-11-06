@@ -450,84 +450,48 @@ p { margin: 0 0 1.1rem; }
 
 
 /* =========================================================
-   TECHNICAL CORE — SAME STYLE AS FEATURED PROJECTS
+   TECHNICAL CORE
+   Uses the exact same card system as Featured Projects
    ========================================================= */
 
-.technical-project-grid {
-  grid-template-columns: repeat(3, minmax(0, 1fr));
-}
-
-.technical-project-card {
-  overflow: hidden;
-}
-
-.technical-project-media {
-  min-height: 115px;
-
+.technical-thumb {
   display: flex;
   align-items: center;
   justify-content: center;
-
-  background: var(--accent-soft);
 }
 
-.technical-project-icon {
-  font-size: 2.8rem;
+.technical-symbol {
+  font-size: 2.7rem;
   line-height: 1;
 }
 
-.technical-project-card .project-body {
-  padding: 1.4rem;
-}
 
-.technical-project-card h3 {
-  margin: 0 0 1rem;
-
-  font-family: var(--font-serif);
-  font-size: 1.25rem;
-  font-weight: 600;
-
-  color: var(--text);
-}
+/* Skill pills */
 
 .skill-tags {
   display: flex;
   flex-wrap: wrap;
   gap: 0.45rem;
+  margin-top: 0.25rem;
 }
 
 .skill-tags span {
-  display: inline-block;
+  display: inline-flex;
+  align-items: center;
 
-  padding: 0.35rem 0.65rem;
+  padding: 0.32rem 0.65rem;
+
+  border: 1px solid var(--border);
 
   border-radius: 999px;
 
   background: var(--accent-soft);
+
   color: var(--text-soft);
 
-  font-size: 0.82rem;
+  font-family: var(--font-sans);
+  font-size: 0.78rem;
+  font-weight: 500;
+
   line-height: 1.2;
-}
-
-
-/* Tablet */
-
-@media (max-width: 900px) {
-
-  .technical-project-grid {
-    grid-template-columns: repeat(2, minmax(0, 1fr));
-  }
-
-}
-
-
-/* Mobile */
-
-@media (max-width: 600px) {
-
-  .technical-project-grid {
-    grid-template-columns: 1fr;
-  }
-
 }
