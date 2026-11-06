@@ -1,200 +1,358 @@
- <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
   <title>About — Jacky Kumar</title>
-  <meta name="description" content="About Jacky Kumar — Research Scientist at Université de Montréal working on particle-physics phenomenology, effective field theory, AI for science, and scientific computing." />
-  <link rel="canonical" href="https://jackypheno.github.io/about.html" />
+
+  <meta
+    name="description"
+    content="About Jacky Kumar — Research Scientist at Université de Montréal working on particle-physics phenomenology, effective field theory, AI for science, and scientific computing."
+  />
+
+  <link
+    rel="canonical"
+    href="https://jackypheno.github.io/jacky.kumar/about.html"
+  />
+
   <meta property="og:type" content="profile" />
-  <meta property="og:title" content="About — Jacky Kumar" />
-  <meta property="og:description" content="Particle physicist and AI/ML researcher — SMEFT/WET, AI for science, and scientific computing." />
-  <meta property="og:url" content="https://jackypheno.github.io/about.html" />
-  <meta property="og:image" content="https://jackypheno.github.io/assets/img/og-image.svg" />
-  <meta name="twitter:card" content="summary_large_image" />
-  <link rel="icon" type="image/svg+xml" href="assets/img/favicon.svg" />
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Newsreader:opsz,wght@6..72,400;6..72,500;6..72,600&display=swap" rel="stylesheet" />
-  <link rel="stylesheet" href="assets/css/style.css" />
+
+  <meta
+    property="og:title"
+    content="About — Jacky Kumar"
+  />
+
+  <meta
+    property="og:description"
+    content="Particle physicist and AI/ML researcher — SMEFT/WET, AI for science, and scientific computing."
+  />
+
+  <meta
+    property="og:url"
+    content="https://jackypheno.github.io/jacky.kumar/about.html"
+  />
+
+  <meta
+    property="og:image"
+    content="https://jackypheno.github.io/jacky.kumar/assets/img/jacky.png"
+  />
+
+  <meta
+    name="twitter:card"
+    content="summary_large_image"
+  />
+
+  <!-- No browser favicon -->
+  <link rel="icon" href="data:," />
+
+  <link
+    rel="preconnect"
+    href="https://fonts.googleapis.com"
+  />
+
+  <link
+    rel="preconnect"
+    href="https://fonts.gstatic.com"
+    crossorigin
+  />
+
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Newsreader:opsz,wght@6..72,400;6..72,500;6..72,600&display=swap"
+    rel="stylesheet"
+  />
+
+  <link
+    rel="stylesheet"
+    href="assets/css/style.css"
+  />
+
 </head>
+
+
 <body>
 
- <header class="site-header">
+  <!-- =====================================================
+       HEADER
+       ===================================================== -->
 
-  <nav class="nav" aria-label="Primary">
+  <header class="site-header">
 
-    <a class="brand" href="index.html">
-      Jacky Kumar
-    </a>
+    <nav
+      class="nav"
+      aria-label="Primary"
+    >
 
-    <ul class="nav-links" id="nav-links">
-
-      <li>
-        <a href="index.html">Home</a>
-      </li>
-
-      <li>
-        <a href="about.html">About</a>
-      </li>
-
-      <li>
-        <a href="publications.html">Publications</a>
-      </li>
-
-      <li>
-        <a href="blog.html" data-match="blog">Blog</a>
-      </li>
-
-      <li>
-        <a href="news.html">News</a>
-      </li>
-
-    </ul>
-
-    <div class="nav-right">
-
-      <button
-        class="icon-btn theme-toggle"
-        data-theme-toggle
-        aria-label="Toggle dark mode"
+      <ul
+        class="nav-links"
+        id="nav-links"
       >
 
-        <svg
-          class="sun"
-          viewBox="0 0 24 24"
-          fill="none"
-          stroke="currentColor"
-          stroke-width="2"
-          stroke-linecap="round"
+        <li>
+          <a href="index.html">
+            Home
+          </a>
+        </li>
+
+        <li>
+          <a href="about.html">
+            About
+          </a>
+        </li>
+
+        <li>
+          <a href="publications.html">
+            Publications
+          </a>
+        </li>
+
+        <li>
+          <a
+            href="blog.html"
+            data-match="blog"
+          >
+            Blog
+          </a>
+        </li>
+
+        <li>
+          <a href="news.html">
+            News
+          </a>
+        </li>
+
+      </ul>
+
+
+      <div class="nav-right">
+
+        <!-- Theme toggle -->
+
+        <button
+          class="icon-btn theme-toggle"
+          data-theme-toggle
+          aria-label="Toggle dark mode"
         >
-          <circle cx="12" cy="12" r="4"/>
 
-          <path
-            d="M12 2v2
-               M12 20v2
-               M4.9 4.9l1.4 1.4
-               M17.7 17.7l1.4 1.4
-               M2 12h2
-               M20 12h2
-               M4.9 19.1l1.4-1.4
-               M17.7 6.3l1.4-1.4"
-          />
-        </svg>
+          <svg
+            class="sun"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="round"
+          >
+            <circle
+              cx="12"
+              cy="12"
+              r="4"
+            />
 
-        <svg
-          class="moon"
-          viewBox="0 0 24 24"
-          fill="currentColor"
+            <path
+              d="M12 2v2
+                 M12 20v2
+                 M4.9 4.9l1.4 1.4
+                 M17.7 17.7l1.4 1.4
+                 M2 12h2
+                 M20 12h2
+                 M4.9 19.1l1.4-1.4
+                 M17.7 6.3l1.4-1.4"
+            />
+          </svg>
+
+
+          <svg
+            class="moon"
+            viewBox="0 0 24 24"
+            fill="currentColor"
+          >
+            <path
+              d="M21 12.8A9 9 0 1 1
+                 11.2 3
+                 a7 7 0 0 0
+                 9.8 9.8Z"
+            />
+          </svg>
+
+        </button>
+
+
+        <!-- Mobile menu -->
+
+        <button
+          class="icon-btn nav-toggle"
+          data-nav-toggle
+          aria-label="Menu"
+          aria-expanded="false"
+          aria-controls="nav-links"
         >
-          <path
-            d="M21 12.8A9 9 0 1 1
-               11.2 3
-               a7 7 0 0 0
-               9.8 9.8Z"
-          />
-        </svg>
 
-      </button>
+          <svg
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="round"
+          >
+            <path d="M4 6h16M4 12h16M4 18h16"/>
+          </svg>
 
-      <button
-        class="icon-btn nav-toggle"
-        data-nav-toggle
-        aria-label="Menu"
-        aria-expanded="false"
-        aria-controls="nav-links"
-      >
+        </button>
 
-        <svg
-          viewBox="0 0 24 24"
-          fill="none"
-          stroke="currentColor"
-          stroke-width="2"
-          stroke-linecap="round"
-        >
-          <path d="M4 6h16M4 12h16M4 18h16"/>
-        </svg>
+      </div>
 
-      </button>
+    </nav>
 
-    </div>
+  </header>
 
-  </nav>
 
-</header>
+  <!-- =====================================================
+       MAIN
+       ===================================================== -->
 
   <main>
+
     <section class="section">
+
       <div class="container">
-        <div class="kicker reveal">About</div>
-        <h1 class="reveal" style="max-width:20ch">Jacky Kumar</h1>
-        <p class="role reveal" style="color:var(--text-soft)">Research Scientist · Université de Montréal · Particle Physics & AI/ML</p>
+
+
+        <div class="kicker reveal">
+          About
+        </div>
+
+
+        <h1
+          class="reveal"
+          style="max-width:20ch"
+        >
+          Jacky Kumar
+        </h1>
+
+
+        <p
+          class="role reveal"
+          style="color:var(--text-soft)"
+        >
+          Research Scientist · Université de Montréal ·
+          Particle Physics &amp; AI/ML
+        </p>
+
 
         <div class="split mt-4">
-          <div class="prose reveal" id="bio"></div>
+
+
+          <!-- =================================================
+               LEFT: BIO
+               ================================================= -->
+
+          <div
+            class="prose reveal"
+            id="bio"
+          ></div>
+
+
+          <!-- =================================================
+               RIGHT: PHOTO ONLY
+               ================================================= -->
+
           <aside class="stack reveal">
+
             <div class="about-portrait">
-              <img src="assets/img/profile.svg" alt="Jacky Kumar"
-                   onerror="this.parentNode.innerHTML='&lt;div class=\'portrait-fallback\'&gt;FH&lt;/div&gt;';" />
+
+              <img
+                src="assets/img/jacky.png"
+                alt="Jacky Kumar"
+              />
+
             </div>
-            <div class="info-card">
-              <h3>Education</h3>
-              <ul class="info-list" id="education"></ul>
-            </div>
-            <div class="info-card">
-              <h3>Research interests</h3>
-              <ul class="chips" id="interests" style="margin-top:0.5rem"></ul>
-            </div>
-            <div class="info-card">
-              <h3>Service &amp; activities</h3>
-              <ul class="info-list" id="service"></ul>
-            </div>
-            <div class="info-card">
-              <h3>Elsewhere</h3>
-              <div class="social-row" id="social" style="margin-top:0.5rem"></div>
-            </div>
+
           </aside>
+
+
         </div>
+
       </div>
+
     </section>
+
   </main>
 
+
+  <!-- =====================================================
+       FOOTER
+       ===================================================== -->
+
   <footer class="site-footer">
+
     <div class="footer-inner">
-      <p>© <span id="year"></span> Jacky Kumar · Built with plain HTML, CSS &amp; JS.</p>
-      <nav class="footer-nav" aria-label="Footer">
-        <a href="about.html">About</a><a href="projects.html">Projects</a><a href="publications.html">Publications</a><a href="blog.html">Blog</a><a href="cv.html">CV</a><a href="contact.html">Contact</a>
+
+      <p>
+        © <span id="year"></span> Jacky Kumar
+      </p>
+
+
+      <nav
+        class="footer-nav"
+        aria-label="Footer"
+      >
+
+        <a href="about.html">
+          About
+        </a>
+
+        <a href="publications.html">
+          Publications
+        </a>
+
+        <a href="blog.html">
+          Blog
+        </a>
+
+        <a href="news.html">
+          News
+        </a>
+
       </nav>
+
     </div>
+
   </footer>
 
+
+  <!-- =====================================================
+       JAVASCRIPT
+       ===================================================== -->
+
   <script src="assets/data/site.js"></script>
+
   <script src="assets/js/main.js"></script>
-  <script src="assets/js/render.js"></script>
+
+
   <script>
-    document.getElementById("year").textContent = new Date().getFullYear();
-    var S = window.SITE, I = window.ICONS;
-    // bio
-    document.getElementById("bio").innerHTML = S.bio.map(function (p) { return "<p>" + p + "</p>"; }).join("") +
-      '<p class="muted" style="font-size:0.92rem">' + S.profile.location + '</p>';
-    // education
-    document.getElementById("education").innerHTML = S.education.map(function (e) {
-      return '<li><span class="period">' + (e.period || "") + '</span><span class="primary">' + e.degree + '</span><br><span class="secondary">' + e.org + (e.note ? ' — ' + e.note : "") + '</span></li>';
-    }).join("");
-    // interests
-    Render.interests("interests");
-    // service
-    document.getElementById("service").innerHTML = S.service.map(function (s) { return '<li class="secondary">' + s + '</li>'; }).join("");
-    // social
-    var L = S.profile.links, social = "";
-    function link(url, icon, label) { return url ? '<a href="' + url + '" target="_blank" rel="noopener">' + I[icon] + label + '</a>' : ""; }
-    social += link(L.github, "github", "GitHub");
-    social += link(L.scholar, "scholar", "Scholar");
-    social += link(L.openreview, "openreview", "OpenReview");
-    social += link(L.dblp, "dblp", "DBLP");
-    social += link(L.linkedin, "linkedin", "LinkedIn");
-    social += '<a href="mailto:' + S.profile.email + '">' + I.mail + 'Email</a>';
-    document.getElementById("social").innerHTML = social;
+
+    document.getElementById("year").textContent =
+      new Date().getFullYear();
+
+
+    var S = window.SITE;
+
+
+    document.getElementById("bio").innerHTML =
+      S.bio
+        .map(function (p) {
+          return "<p>" + p + "</p>";
+        })
+        .join("") +
+
+      '<p class="muted" style="font-size:0.92rem">' +
+      S.profile.location +
+      "</p>";
+
   </script>
+
+
 </body>
+
 </html>
