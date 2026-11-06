@@ -35,7 +35,7 @@ window.SITE = {
   ],
 
   education: [
-    { degree: "Research training in theoretical particle physics", org: "Particle-physics phenomenology and effective field theory", period: "10+ years", note: "Precision observables, SMEFT/WET, scientific data interpretation, and computational physics." }
+    { degree: "PhD in theoretical particle physics", org: "Tata Institute of Fundamental Research, Mumbai", period: "Sep 2011 - June 2017", note: "Precision observables, SMEFT/WET, scientific data interpretation, and computational physics." }
   ],
 
   experience: [
