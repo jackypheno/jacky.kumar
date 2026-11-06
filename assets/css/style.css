@@ -4,34 +4,21 @@
    ========================================================================== */
 
 :root {
-  /* near-white surfaces */
-  --bg: #ffffff;
-  --bg-soft: #fafafa;
-  --surface: #ffffff;
-  --border: #ebebef;
-  --border-strong: #dcdce2;
+  --bg: #f7f5ef;
+  --text: #14213d;
 
-  /* text — hierarchy via weight/size, not colour */
-  --text: #1a1a1f;
-  --text-soft: #565661;
-  --text-faint: #8b8b96;
+  --primary: #0b1f3a;
+  --primary-light: #17365f;
 
-  /* one accent, used sparingly */
-  --accent: #4f46e5;
-  --accent-soft: #f0efff;
+  --accent: #d4a017;
+  --accent-hover: #b8860b;
 
-  --font-sans: "Inter", ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
-  --font-serif: "Newsreader", ui-serif, Georgia, "Times New Roman", serif;
+  --border: #d9d6ce;
+  --card-bg: #ffffff;
 
-  --maxw: 940px;
-  --maxw-wide: 1080px;
-  --radius: 14px;
-  --radius-sm: 10px;
-  --shadow: 0 1px 3px rgba(20, 20, 40, 0.05);
-  --shadow-hover: 0 6px 24px rgba(20, 20, 40, 0.07);
-  --space: clamp(4rem, 9vw, 7rem);
-  --header-h: 68px;
+  --muted: #6b7280;
 }
+
 
 [data-theme="dark"] {
   --bg: #0f0f13;
