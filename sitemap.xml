@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url><loc>https://jackypheno.github.io/</loc><changefreq>weekly</changefreq><priority>1.0</priority></url>
+  <url><loc>https://jackypheno.github.io/about.html</loc><priority>0.8</priority></url>
+  <url><loc>https://jackypheno.github.io/projects.html</loc><priority>0.9</priority></url>
+  <url><loc>https://jackypheno.github.io/publications.html</loc><priority>0.9</priority></url>
+  <url><loc>https://jackypheno.github.io/blog.html</loc><priority>0.5</priority></url>
+  <url><loc>https://jackypheno.github.io/news.html</loc><priority>0.7</priority></url>
+  <url><loc>https://jackypheno.github.io/cv.html</loc><priority>0.8</priority></url>
+  <url><loc>https://jackypheno.github.io/contact.html</loc><priority>0.6</priority></url>
+  <url><loc>https://jackypheno.github.io/project.html?id=rag-particle-physics</loc><priority>0.8</priority></url>
+  <url><loc>https://jackypheno.github.io/project.html?id=rl-eft</loc><priority>0.8</priority></url>
+  <url><loc>https://jackypheno.github.io/project.html?id=wilson</loc><priority>0.8</priority></url>
+  <url><loc>https://jackypheno.github.io/project.html?id=wcxf</loc><priority>0.7</priority></url>
+  <url><loc>https://jackypheno.github.io/project.html?id=smelli</loc><priority>0.7</priority></url>
+</urlset>
