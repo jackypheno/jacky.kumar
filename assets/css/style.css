@@ -387,3 +387,63 @@ p { margin: 0 0 1.1rem; }
 /* utilities */
 .mt-1 { margin-top: 0.6rem; } .mt-2 { margin-top: 1.1rem; } .mt-3 { margin-top: 1.8rem; } .mt-4 { margin-top: 2.6rem; }
 .mb-0 { margin-bottom: 0; }
+
+
+
+/* =========================================================
+   FORCE PROFILE SOCIAL ICON SIZE
+   ========================================================= */
+
+.hero-portrait .profile-socials {
+  display: flex !important;
+  flex-direction: row !important;
+  justify-content: center !important;
+  align-items: center !important;
+  gap: 12px !important;
+  margin-top: 16px !important;
+  width: 100% !important;
+}
+
+.hero-portrait .profile-socials .profile-social-icon {
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+
+  width: 40px !important;
+  height: 40px !important;
+
+  min-width: 40px !important;
+  min-height: 40px !important;
+
+  max-width: 40px !important;
+  max-height: 40px !important;
+
+  padding: 0 !important;
+  margin: 0 !important;
+
+  border: 1px solid var(--border) !important;
+  border-radius: 50% !important;
+
+  background: var(--surface) !important;
+  color: var(--accent) !important;
+
+  overflow: hidden !important;
+}
+
+.hero-portrait .profile-socials .profile-social-icon svg {
+  display: block !important;
+
+  width: 20px !important;
+  height: 20px !important;
+
+  min-width: 20px !important;
+  min-height: 20px !important;
+
+  max-width: 20px !important;
+  max-height: 20px !important;
+
+  margin: 0 !important;
+  padding: 0 !important;
+
+  flex: 0 0 20px !important;
+}
