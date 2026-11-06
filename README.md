@@ -1,3 +1,1 @@
-# Jacky Kumar — Personal Research Website
-
-
+# Jacky Kumar — Personal Website
